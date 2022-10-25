@@ -1,0 +1,172 @@
+body{
+    min-height: 100vh;
+}
+.nav-ul li {
+    margin-top: 13px;
+    margin-left: 13px;
+    display: inline-block;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-ul li a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    bottom: -10%;
+    text-align: center;
+    width: 100%;
+    background-color: skyblue;
+}
+
+.nav-ul {
+    padding: 5px;
+    margin: 0;
+    background-color: skyblue;
+    min-height: 64px;
+}
+
+.register,
+.product {
+    margin-left: 30%;
+}
+
+.login {
+    margin-left: 30%;
+    /* margin-top: 100px; */
+}
+
+.inputBox {
+    display: block;
+    margin: 25px;
+    margin: 25px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid skyblue;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.logo {
+    float: left;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.invalid_input {
+    color: red;
+    margin-top: 20px;
+    display: block;
+    margin-left: 20px;
+}
+
+.product-list {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.product-list ul li {
+    display: inline-block;
+    border: 0px solid skyblue;
+    padding: 5px;
+    width: 167px;
+}
+
+.product-list ul {
+    margin: 0;
+}
+
+.operationBox {
+    width: 313px !important;
+}
+
+.deleteButton {
+    background-color: lightcoral;
+    /* padding: 7px 15px; */
+    margin-right: 3px;
+    cursor: pointer;
+    border: none;
+    width: 75px;
+    height: 32px;
+}
+
+.updateButton {
+    background-color: #ffc107;
+    /* padding: 7px 15px; */
+    margin-left: 3px;
+    cursor: pointer;
+    border: none;
+    width: 75px;
+    height: 32px;
+}
+
+.appButton {
+    margin: 25px;
+    padding: 10px;
+    width: 150px;
+    background-color: skyblue;
+    cursor: pointer;
+    border: none;
+}
+
+.searchBox{
+    width: 400px;
+    margin: 20px;
+    height: 40px;
+    border: 3px solid rgb(118, 182, 207);
+    border-style: groove;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.searchBox:focus{
+    outline: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
